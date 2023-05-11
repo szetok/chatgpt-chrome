@@ -4,8 +4,8 @@ const Dotenv = require('dotenv-webpack');
 module.exports = {
   mode: "production",
   entry: {
-    background: "./background.js",
-    popup: "./popup.js",
+    background: "./src/background.js",
+    popup: "./src/popup.js",
   },
   output: {
     path: path.resolve(__dirname, "dist"),
