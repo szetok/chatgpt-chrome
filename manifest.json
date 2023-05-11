@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Extension",
+  "version": "1.0",
+  "description": "Send a message to ChatGPT using OpenAI API",
+  "background": {
+    "service_worker": "dist/background.js"
+  },
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

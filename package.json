@@ -1,0 +1,18 @@
+{
+  "name": "chatgpt-chrome",
+  "version": "1.0.0",
+  "description": "Send a message to ChatGPT using OpenAI API",
+  "scripts": {
+    "build": "npx webpack --config webpack.config.js",
+    "format": "prettier --write './**/*.js' './**/*.json' './**/*.html' './**/*.css'"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel-loader": "^9.1.2",
+    "dotenv-webpack": "^8.0.1",
+    "prettier": "^2.8.8",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1"
+  }
+}
