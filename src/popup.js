@@ -6,7 +6,7 @@ sendButton.addEventListener("click", async () => {
   const prompt = textarea.value;
   chrome.runtime.sendMessage(
     {
-      action: "generateText",
+      action: "createChatCompletion",
       prompt: prompt,
     },
     function (response) {
